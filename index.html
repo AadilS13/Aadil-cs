@@ -1,3 +1,31 @@
-<p>my name is aadil</p>
+<html> 
 
-<p> My name is Naseem </p>
+<head>
+    <title> Aadils Website </title>
+</head>
+<body>
+<!-- This is a comment -->
+    <form>
+        <label> First Name </label>
+        <input type="text" name="name" />
+
+        <label> Last name </label>
+        <input type="text" name="lastname" />
+        
+        <button type="submit"> Submit </button>
+
+    </form>
+    <footer>
+        <script>    
+
+            document.querySelector('form').addEventListener('submit', (event) => handleForm(event))
+            function handleForm (event) {
+                event.preventDefault()
+
+
+                console.log("foiufwfiw")
+            }
+        </script> 
+    </footer>
+</body>
+</html>
